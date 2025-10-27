@@ -1,6 +1,8 @@
-read -p "Enter the number to find the factorial: " num
-fact=1
-for ((i=1; i<=num; i++)); do
-    ((fact*=i))
+# Factorial of a number
+read -p "Enter number: " n
+f=1
+for((i=1;i<=n;i++))
+do
+  ((f*=i))
 done
-echo "Factorial of the given number is: $fact"
+echo "Factorial = $f"
